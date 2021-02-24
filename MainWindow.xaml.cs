@@ -687,7 +687,7 @@ namespace TeLaSeAPlayer
         private void ShowVersionInfo()
         {        
             var versionStr = $"Program Sürümü:{Assembly.GetExecutingAssembly().GetName().Version.ToString()}" +
-                $"\nAplayer Engine Versiyon :{player.GetVersion()}";
+                $"\nAplayer Engine Versiyon TeLaSe:{player.GetVersion()}";
 
             MessageBox.Show(versionStr);
         }

@@ -28,7 +28,6 @@
             <MenuItem Header="Aç" ItemContainerStyle="{StaticResource StyleMenuItem}" FontFamily="Arial">
                 <MenuItem Header="Dosya Aç"  Click="menu_OpenLocal_Click"/>
                 <MenuItem Header="URL Aç"  Click="menu_OpenNetwork_Click"/>
-                <MenuItem Header="Klasör Aç"  Click="menu_OpenFolder_Click"/>
             </MenuItem>
             <MenuItem Header="Kapat" Click="menu_Close_Click" FontFamily="Arial" />
             <MenuItem Header="PlayList" ItemContainerStyle="{StaticResource StyleMenuItem}" FontFamily="Arial">
@@ -166,7 +165,6 @@
                             <Popup Placement="Top" PlacementTarget="{Binding ElementName=btn_Open}" StaysOpen="False" PopupAnimation="Fade" Name="popup_OpenMenu">
                                 <StackPanel Background="White">
                                     <MenuItem Header="Dosya Aç" Click="menu_OpenLocal_Click" FontFamily="Arial"/>
-                                    <MenuItem Header="Klasör Aç" Click="menu_OpenFolder_Click" FontFamily="Arial"/>
                                     <MenuItem Header="URL Aç" Click="menu_OpenNetwork_Click" FontFamily="Arial"/>
                                 </StackPanel>
                             </Popup>
